@@ -1,0 +1,51 @@
+npm create vite@latest
+create-vite@7.1.1
+Ok to proceed? (y) y
+Project name:
+│  chit chat
+│
+◇  Package name:
+│  chit_chat
+│
+◇  Select a framework:
+│  React
+│
+◇  Select a variant:
+│  JavaScript
+
+cd "chit chat"
+  npm install
+  npm i react-router-dom
+  npm i react-toastify
+  npm i firebase
+  npm run dev // To run project 
+---------------------------------------------------------------------------------------
+Add background.png and chat_app.svg in public folder and change href of link
+
+make components, config, lib,pages,context folders in src folder
+
+create Login folder in pages folder and create Login.jsx and Login.css file in it
+create Chat folder in pages folder and create Chat.jsx and Chat.css file in it
+create ProfileUpdate folder in pages folder and create ProfileUpdate.jsx and ProfileUpdate.css file in it
+also import all three above .css file in respective .jsx file
+
+-----------------------------------------------------------------------------------------
+in main.jsx, replace 
+ <StrictMode>
+    <App />
+  </StrictMode>,
+
+  with 
+  <BrowserRouter>
+    <App />
+
+  </BrowserRouter>
+
+-------------------------------------------------------------------------------------
+Add Routes in App.jsx
+
+<Routes>
+<Route path='/' element ={<Login/>}/>      {/* We wan't to make it Home Page */}
+<Route path='/chat' element={<Chat/>}/>    {/* For Chat page */}
+<Route path='/profile' element={<ProfileUpdate/>}/> {/* For Profile Page*/}
+</Routes>

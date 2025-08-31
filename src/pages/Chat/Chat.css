@@ -1,0 +1,32 @@
+.chat{
+
+min-height: 100vh;
+    background:linear-gradient(#8ed787,#156f0d);
+
+    display: grid; 
+
+    /* 3 parts m divide karna h isko 
+    
+    1. Left Side Bar
+    2. Chat Box
+    3. Right Side Bar
+
+    */
+
+    place-items: center;
+
+}
+
+.chat-container{
+
+
+    width: 90%;
+    height: 75vh;
+    max-width: 1000px;
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    /* {1fr : LeftSideBar} */
+    /* {2fr : ChatBox} */
+    /* {1fr : RightSideBar} */
+}

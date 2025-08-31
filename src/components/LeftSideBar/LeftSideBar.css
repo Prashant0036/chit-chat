@@ -1,0 +1,138 @@
+.ls{
+
+    
+    background-color: black;
+    color: white;
+    height: 439px;
+    padding-bottom: 20px;
+
+}
+
+.ls-top{
+    padding: 20px 20px 10px 20px;
+}
+
+.ls-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ls-nav .logo{
+
+    width: 160px;
+    height: 40px;
+
+}
+
+.menu-icon{
+
+    height: 20px;
+    cursor: pointer;
+}
+
+.menu-icon:hover{
+opacity: 0.6;
+
+}
+
+.ls-search{
+
+    background-color: black;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 12px;
+    margin-top: 20px;
+}
+
+
+.search-icon{
+    width:  16px;
+}
+
+.ls-search input{
+    background-color: black;
+    padding: 3px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 11px;
+   
+}
+
+.ls-search input ::placeholder{
+    color: gray;
+}
+
+.ls-list{
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    overflow-y: scroll;
+  
+
+    
+}
+.friend-pp{
+    width: 35px;
+    aspect-ratio: 1/1;
+    border-radius: 50px;
+}
+
+.friend{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 10px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.friend div{
+    display: flex;
+    flex-direction: column;
+}
+.recent-message{
+color: rgb(245, 245, 245);
+opacity: 0.6;
+font-size: 11px;
+}
+
+.friend:hover{
+    background-color:#156f0d;
+}
+.friend:hover span{
+    color: white;
+    opacity: 0.8;
+}
+
+.menu{
+    position: relative;
+    padding: 10px 0px;
+
+}
+ .sub-menu{
+    position: absolute;
+    top: 84%;
+    right: 14px;
+    width: 130px;
+    padding: 15px;
+    border-radius: 5px 0px 5px 5px ;
+    background-color: rgb(255, 255, 255);
+   color: black;
+}
+
+.sub-menu hr{
+    border: none;
+    height: 1px;
+    background: gray;
+    margin: 8px 0px;
+}
+
+.sub-menu p{
+    cursor: pointer;
+    font-size: 14px;
+}
+

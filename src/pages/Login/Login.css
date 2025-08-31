@@ -1,0 +1,28 @@
+.login{
+
+
+    min-height: 100vh;
+
+    background-color: black;
+    background: url("background1.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+form{
+
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 20vw;
+ 
+}
+
+
+span:hover{
+
+cursor: pointer;
+
+}
