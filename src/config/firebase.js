@@ -9,12 +9,12 @@ import {toast} from "react-toastify";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyB9aF6s33qU6DuV9odT-hrrU40rAx3mXw8",
+  apiKey: "API",
   authDomain: "chit-chat-036.firebaseapp.com",
   projectId: "chit-chat-036",
   storageBucket: "chit-chat-036.firebasestorage.app",
   messagingSenderId: "569293553310",
-  appId: "1:569293553310:web:4fa3849fb54cf17e59058f"
+  appId: "API ID"
 };
 
 // Initialize Firebase
